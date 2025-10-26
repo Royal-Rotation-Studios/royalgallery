@@ -1,0 +1,15 @@
+{
+  "id": "Addicte",
+  "name": "Addicte",
+  "display_name": "Addicte",
+  "author": ["Royal Rotation"],
+  "description": "Addicte mod, a base to start modding Balatro!",
+  "prefix": "sj",
+  "prefixcomment":"ABOVE PREFIX IS ADDED TO E.G. LOCALIZATION!",
+  "main_file": "Addicte.lua",
+  "priority": 0,
+  "badge_colour": "C75062",
+  "badge_text_colour": "",
+  "version": "1.0.1",
+  "dependencies": ["Steamodded (1.0.0~BETA-1018a)"]
+}
