@@ -1,4 +1,3 @@
--- RoyalGallery/localization/en-us.lua (CLEANED copy)
 return {
     descriptions = {
         Joker = {
@@ -101,7 +100,7 @@ return {
                         "Played cards with an",
                         "{C:attention}odd{} rank give {C:money}$#1#{}",
                         "during scoring",
-                        "{C:inactive}(A, 11, 9, 7, 5, 3)",
+                        "{C:inactive}(A, 9, 7, 5, 3)",
                     }
                 },
             },
@@ -112,7 +111,7 @@ return {
                         "Played cards with an",
                         "{C:attention}even{} have a {C:green}#2# in #3#{} chance",
                         "to give {X:mult,C:white}X#1#{} Mult",
-                        "{C:inactive}(12, 10, 8, 6, 4, 2)",
+                        "{C:inactive}(10, 8, 6, 4, 2)",
                     }
                 },
             },
