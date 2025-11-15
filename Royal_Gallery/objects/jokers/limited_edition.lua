@@ -1,0 +1,31 @@
+SMODS.Joker{
+    key = "limited_edition",
+    config = { extra = { x_mult = 2 } },
+    pos = { x = 0, y = 0 },
+    rarity = 2,
+    cost = 8,
+    blueprint_compat = true,
+    eternal_compat = true,
+    perishable_compat = true,
+    unlocked = true,
+    discovered = true,
+    effect = nil,
+    atlas = 'le_joker',
+    soul_pos = nil,
+
+    calculate = function(self, card, context)
+        if not (context.individual or context.repetition) and context.other_joker and context.other_joker.config.center.rarity == 3 and self ~= context.other_joker then
+            shakecard(context.other_joker)
+            return {
+                message = localize{type='variable',key='a_xmult',vars={card.ability.extra.x_mult}},
+                colour = G.C.RED,
+                x_mult = card.ability.extra.x_mult
+            }
+        end
+    end,
+
+    loc_vars = function(self, info_queue, card)
+        return { vars = { card.ability.extra.x_mult }, key = self.key}
+    end
+}
+
