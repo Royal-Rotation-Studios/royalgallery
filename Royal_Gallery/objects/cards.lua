@@ -33,16 +33,16 @@ SMODS.Rank {
 --    next = {"Jack", "Queen", "King"}
 --}
 
-local suits = {"Hearts", "Clubs", "Diamonds", "Spades"}
+--local suits = {"Hearts", "Clubs", "Diamonds", "Spades"}
 
-for _, suit in ipairs(suits) do
+--for _, suit in ipairs(suits) do
     --Create a playing card instance of the new rank for each suit
-    local ok, card_or_err = pcall(function()
-        return SMODS.create_card{
-            set = "Playing Card",
-            suit = suit,
-            rank = "eleven",
-            area = G.deck,
-        }
-    end)
-end
+--    local ok, card_or_err = pcall(function()
+--        return SMODS.create_card{
+--            set = "Playing Card",
+--            suit = suit,
+--            rank = "eleven",
+--            area = G.deck,
+--        }
+--    end)
+--end

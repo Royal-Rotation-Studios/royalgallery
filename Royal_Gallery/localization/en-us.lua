@@ -294,11 +294,11 @@ return {
                 },
             },
         },
-        Card = {
-            c_sj_eleven = {
-                name = "11",
-            },
-        }
+        --Card = {
+        --    c_sj_eleven = {
+        --        name = "11",
+        --    },
+        --}
     },
     misc = {
         dictionary = {
