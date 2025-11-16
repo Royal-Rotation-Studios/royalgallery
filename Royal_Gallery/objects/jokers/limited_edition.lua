@@ -13,6 +13,8 @@ SMODS.Joker{
     atlas = 'jokers',
     soul_pos = nil,
 
+    pixel_size = { w = 47, h = 64},
+
     calculate = function(self, card, context)
         if not (context.individual or context.repetition) and context.other_joker and context.other_joker.config.center.rarity == 3 and self ~= context.other_joker then
             shakecard(context.other_joker)

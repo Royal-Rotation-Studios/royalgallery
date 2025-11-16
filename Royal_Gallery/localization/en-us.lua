@@ -142,9 +142,10 @@ return {
                 name = "Numerophobia",
                 text = {
                     {
-                        "On {C:attention}first{} played {C:attention}hand{} of {C:attention}round{},",
-                        "destroy all {C:attention}numbered{} cards and",
-                        "create random {C:attention}letter cards{}",
+                        "If {C:attention}first{} played {C:attention}hand{} of {C:attention}round{}",
+                        "has a {C:attention}scoring numbered{} card,",
+                        "create two random {C:tarot}*Tarot{} cards",
+                        "{C:inactive}(Must have room)",
                     }
                 },
             },
