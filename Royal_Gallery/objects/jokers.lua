@@ -140,13 +140,6 @@ SMODS.Atlas({
     py = 95
 })
 
-SMODS.Atlas({
-    key = "le_joker",
-    path = "limited_edition_joker.png",
-    px = 47,
-    py = 64
-})
-
 for _, key in ipairs(joker_list) do
     local rel = "objects/jokers/" .. key .. ".lua"
     print("[DBG] trying:", rel)

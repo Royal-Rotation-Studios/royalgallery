@@ -1,7 +1,7 @@
 SMODS.Joker{
     key = "limited_edition",
     config = { extra = { x_mult = 2 } },
-    pos = { x = 0, y = 0 },
+    pos = { x = 5, y = 3 },
     rarity = 2,
     cost = 8,
     blueprint_compat = true,
@@ -10,7 +10,7 @@ SMODS.Joker{
     unlocked = true,
     discovered = true,
     effect = nil,
-    atlas = 'le_joker',
+    atlas = 'jokers',
     soul_pos = nil,
 
     calculate = function(self, card, context)

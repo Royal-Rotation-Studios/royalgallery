@@ -7,18 +7,18 @@ SMODS.Atlas({
 })
 
 --List of ranks
-SMODS.Rank {
-    hc_atlas = 'deck_hc',
-
-    key = 'eleven',
-    card_key = '11',
-    pos = { x = 10 },
-    nominal = 11,
-    loc_txt = { name = "11"},
-    shorthand = "11",
-    face = false,
-    next = {"Jack", "Queen", "King"}
-}
+--SMODS.Rank {
+--    hc_atlas = 'deck_hc',
+--
+--    key = 'eleven',
+--    card_key = '11',
+--    pos = { x = 10 },
+--    nominal = 11,
+--    loc_txt = { name = "11"},
+--    shorthand = "11",
+--    face = false,
+--    next = {"Jack", "Queen", "King"}
+--}
 
 --SMODS.Rank {
 --    hc_atlas = 'deck_hc',
