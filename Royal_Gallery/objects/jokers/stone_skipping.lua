@@ -3,7 +3,7 @@ SMODS.Joker{
     config = { extra = { chips_to_add = 5, chips_to_add_mod = 5 } },
     pos = { x = 6, y = 2 },
     rarity = 2,
-    cost = 4,
+    cost = 6,
     blueprint_compat = true,
     eternal_compat = true,
     perishable_compat = true,

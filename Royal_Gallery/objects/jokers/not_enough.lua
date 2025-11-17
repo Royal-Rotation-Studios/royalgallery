@@ -3,7 +3,7 @@ SMODS.Joker {
     config = { extra = { modifier = 3 } },
     pos = { x = 1, y = 1 },
     rarity = 1,
-    cost = 3,
+    cost = 5,
     blueprint_compat = true,
     eternal_compat = true,
     perishable_compat = true,
