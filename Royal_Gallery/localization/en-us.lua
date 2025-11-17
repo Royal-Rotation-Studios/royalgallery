@@ -143,7 +143,7 @@ return {
                 text = {
                     {
                         "If {C:attention}first{} played {C:attention}hand{} of {C:attention}round{}",
-                        "has a {C:attention}scoring numbered{} card,",
+                        "has a {C:attention}played numbered{} card,",
                         "create two random {C:tarot}*Tarot{} cards",
                         "{C:inactive}(Must have room)",
                     }
