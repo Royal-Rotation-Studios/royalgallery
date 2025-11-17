@@ -109,7 +109,7 @@ return {
                 text = {
                     {
                         "Played cards with an",
-                        "{C:attention}even{} have a {C:green}#2# in #3#{} chance",
+                        "{C:attention}even{} rank have a {C:green}#2# in #3#{} chance",
                         "to give {X:mult,C:white}X#1#{} Mult",
                         "{C:inactive}(10, 8, 6, 4, 2)",
                     }
